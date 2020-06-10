@@ -1,0 +1,3 @@
+scripts:
+  make:  elm make --optimize src/Main.elm --output=public/Main.js
+  look  : open -a /Applications/Google\ Chrome.app/  public/index.html

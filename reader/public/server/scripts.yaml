@@ -1,0 +1,4 @@
+scripts:
+  server: deno run --allow-read --allow-net --allow-env server.ts
+  ps: ps aux | grep deno
+  
