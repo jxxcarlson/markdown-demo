@@ -26,10 +26,9 @@ The current setting is.
 ````
 
 
-## Installing the demo server
+## Running the server
 
-There is used by a small server locatad in `./public/server`
-that has been included.  The files served are in `./public/server/data`.
+There is a small demo server located in `./public/server`.   The files served are in `./public/server/data`.
 The server is written in [Deno](https://deno.land/), which is 
 a successor to Node written by Ryan Dahl, the creator of Node.
 To install Deno, run the relevant one of the following two
@@ -53,9 +52,18 @@ which you do this way:
 deno install -qA -n vr https://deno.land/x/velociraptor/cli.ts
 ```
 
-Velociraptor, runs using the command `vr`.  Go to `./public/server`
+Velociraptor runs using the command `vr` in the terminal.                                                                                                                                                                                        Go to `./reader/public/server`
 and say `vr`.  This will list the commands available; they are defined
 in `scripts.yaml`.  To run the server, say `vr server`.
 
+
+## Running the Reader
+
 To run the reader, go to `./reader` and say `vr` to list the commands available.
-Run `vr make` or simply `elm make --optimize --output=public/Main.js`.  Then open `index.html` 
+Run `vr make` or simply `elm make --optimize --output=public/Main.js`.  
+Then open `public/index.html` with a browser.
+
+## Running the Editor
+
+Go to `./editor`.  Run the command `vr make`.  Then open `public/index.html`.
+
