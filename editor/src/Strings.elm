@@ -6,6 +6,8 @@ initialText =
 
 *You are looking at an editor for an extended version of Markdown. Feel free to edit the text or clear it entirely and experiment.*
 
+[Github repo](https://github.com/jxxcarlson/markdown-demo)
+
 # Extended Markdown
 
 This document describes an extended version of Markdown provided by the package
@@ -32,7 +34,7 @@ $$
 
 ### 3. SVG and custom blocks
 
-MMarkdown has special block syntax
+Extended Markdown has special block syntax
 as illustrated in the example below:
 
 ````
