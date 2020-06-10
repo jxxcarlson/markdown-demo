@@ -1,9 +1,16 @@
-# Markdown+Math Demo
+# Extended Markdown Demo
 
 This folder demonstrates some of the features of 
-the library `jxxcarlson/elm-markdown`.  We will
+the library [jxxcarlson/elm-markdown](https://package.elm-lang.org/packages/jxxcarlson/elm-markdown/latest/).  We will
 refer to the flavor of Markdown defined by this
-library as *Math Markdown* or simply *MMarkdown*.
+library as *Extended Markdown*.  Among the features of Extended Markdown 
+are 
+
+- Inline and display mathematical equations using LaTeX
+- SVG images using the custom @svg block
+- Poetry blocks
+- Custom inline elements, e.g, @class[red warning], which renders "warning" in 
+red.  Any class name works, as long as you define it in `./public/assets/style.css`.
 
 There are two apps
 
