@@ -6,7 +6,7 @@ refer to the flavor of Markdown defined by this
 library as *Extended Markdown*.  Among the features of Extended Markdown 
 are 
 
-- Inline and display mathematical equations using LaTeX
+- Inline and displayed mathematical equations using LaTeX
 - SVG images using the custom @svg block
 - Poetry blocks
 - Custom inline elements, e.g, @class[red warning], which renders "warning" in 
