@@ -1,9 +1,12 @@
 
 body { background-color: #e1e6e8; padding-left: 40px; }
 
+
+
 .red { color: red;}
 .green { color: green;}
 .blue {color: blue;}
+
 
 .elmsh-line {
     padding : 8px;
@@ -94,6 +97,11 @@ h5 {font-size: 10pt}
 	margin-bottom: 18px;
 	white-space: nowrap;
 }
+
+.mm-poetry p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+]
 .mm-closed-block {
 	margin-bottom; 12px;
 	width: inherit;
